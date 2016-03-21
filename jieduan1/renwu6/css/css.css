@@ -99,5 +99,6 @@ border-top: 2px solid #cc8091;
 #bottomleftpic{width: 167px;height: 288px;background-color: red;float: right;margin-right: 6px;margin-top: 21px;}
 #bottomright{width: 458px;height: 604px;float:right;}
 #bottomright>:first-child{overflow:hidden;width: 458px;height:257px;background:red;}
-#bottomright>:first-child>section{width: 458px;height: 61px;background: blue;margin-top: 196px;}
+#bottomright>:first-child>section{width: 458px;height: 61px;background: blue;margin-top: 196px;overflow: hidden;}
+#bottomright>:first-child>section>div{width: 263px;height: 44px;margin-left: 38px;margin-top: 8px;border-left:3px solid #72b16a;}
 #bottomright>:last-child{width:458px;height: 318px;margin-top: 30px;background-color: red;}

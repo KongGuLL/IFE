@@ -101,4 +101,5 @@ border-top: 2px solid #cc8091;
 #bottomright>:first-child{overflow:hidden;width: 458px;height:257px;background:red;}
 #bottomright>:first-child>section{width: 458px;height: 61px;background: blue;margin-top: 196px;overflow: hidden;}
 #bottomright>:first-child>section>div{width: 263px;height: 44px;margin-left: 38px;margin-top: 8px;border-left:3px solid #72b16a;}
+#bottomright>:first-child>section>div>span:first-child{display:block;float:left;margin-left:14px;font-size: 26px; line-height:44px;color: #FFFFFF;font-family: "微软雅黑";}
 #bottomright>:last-child{width:458px;height: 318px;margin-top: 30px;background-color: red;}

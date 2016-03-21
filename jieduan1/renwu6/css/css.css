@@ -98,5 +98,6 @@ border-top: 2px solid #cc8091;
 #bottomleft>article>p:nth-child(6),#bottomleft>article>p:nth-child(5){text-indent: 2em;margin-left: 4px;}
 #bottomleftpic{width: 167px;height: 288px;background-color: red;float: right;margin-right: 6px;margin-top: 21px;}
 #bottomright{width: 458px;height: 604px;float:right;}
-#bottomright>:first-child{width: 458px;height:257px;background: red;}
-#bottomright>:last-child{width:458px;height: 318px;background: blue;margin-top: 30px;}
+#bottomright>:first-child{overflow:hidden;width: 458px;height:257px;background:red;}
+#bottomright>:first-child>section{width: 458px;height: 61px;background: blue;margin-top: 196px;}
+#bottomright>:last-child{width:458px;height: 318px;margin-top: 30px;background-color: red;}

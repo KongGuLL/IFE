@@ -102,4 +102,27 @@ border-top: 2px solid #cc8091;
 #bottomright>:first-child>section{width: 458px;height: 61px;background: blue;margin-top: 196px;overflow: hidden;}
 #bottomright>:first-child>section>div{width: 263px;height: 44px;margin-left: 38px;margin-top: 8px;border-left:3px solid #72b16a;}
 #bottomright>:first-child>section>div>span:first-child{display:block;float:left;margin-left:14px;font-size: 26px; line-height:44px;color: #FFFFFF;font-family: "微软雅黑";}
-#bottomright>:last-child{width:458px;height: 318px;margin-top: 30px;background-color: red;}
+#bottomright>:first-child>section>div>span:last-child{display: block;float: left;font-size: 12px; color: #72b16a;font-style: italic;font-family: "微软雅黑";letter-spacing: 140%;margin-top: 24px;margin-left: 8px;}
+#bottomright>:last-child{width:458px;height: 318px;margin-top: 30px;background-color:#eeeed6;overflow: hidden;}
+#bottomright>:last-child>ul>li{font-size:16px;color: #5a5b5b;font-family:"宋体";margin-top: 20px;	word-break: keep-all;overflow: hidden;}
+#bottomright>:last-child>ul{margin-top: 33px;margin-left: 28px;}
+#bottomright>:last-child>ul>li:before{
+position:relative;
+content: '';
+width: 0;
+height: 0;
+border-style: solid;
+border-color: transparent;
+border-bottom-color: #11456b;
+border-width: 0 6px 12px 6px;
+top: -16px;
+margin-right: 10px;
+}
+#bottomright>:last-child>ul>li>span{font-size: 12px;color: #5a5v5v;font-family: "宋体";font-style: italic;}
+#bottomright>:last-child>.left{float:left;margin-top:30px;width: 261px;height: 160px;background:#d55d5c;}
+#bottomright>:last-child>.left>span{float:left;display:block;width: 78px;height: 86px;border-right: 2px solid #FFFFFF;display: block;color: #FFFFFF;font-size: 110px;font-family: "微软雅黑";line-height: 86px;margin-top: 39px;}
+#bottomright>:last-child>.left>div{float:left;margin-top: 48px;margin-left: 9px;}
+#bottomright>:last-child>.left>div>p{color: #FFFFFF;font-family: "黑体";}
+#bottomright>:last-child>.left>div>p:nth-child(1),#bottomright>:last-child>.left>div>p:nth-child(2){font-size: 21px;font-style:italic;}
+#bottomright>:last-child>.left>div>p:nth-child(3),#bottomright>:last-child>.left>div>p:nth-child(4){font-size: 12px;}
+#bottomright>:last-child>.right{margin-top:37px;float:right;width:161px;height:115px;background:blue;}

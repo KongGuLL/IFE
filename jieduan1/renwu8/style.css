@@ -4,20 +4,21 @@ body{
 	.row{
 		padding-right: 20px;
 	}
-	.row:before,.row:after{
+	.row:before,
+	.row:after{
 		content: "";
 		display:table;
 		clear: both;
 	}
 	[class*="col-"]{
 		float: left;
-		height: 50px;width: 16.666%;
+		height: 50px;
 		background-color: #eee;
 		margin:20px 0 0 20px;
 		outline: 1px solid #999;
 	}
 /*大于768px*/
-@media only screen and (min-width:768) {
+@media(min-width:769px) {
 	.col-md-1{
 		width: calc(8.3333% - 20px);
 	}
@@ -28,11 +29,12 @@ body{
 		width:calc(25% - 20px);
 	}
 	.col-md-4{
-		width: .calc(33.333% - 20px);
+		width: calc(33.333% - 20px);
+	}
 	.col-md-6{
 		width: calc(50% - 20px);
 	}
-	}
+	
 }
 /*当屏幕宽度小于等于768px时*/
 @media (max-width: 768px){

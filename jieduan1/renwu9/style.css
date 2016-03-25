@@ -1,0 +1,130 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+ul,li{list-style: none;padding: 0px; margin: 0px;overflow: hidden;}
+#wrap {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	height: 56px;
+	background: #228abf;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+#logo {
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	background: red;
+}
+
+#search {
+	width: 312px;
+	height: 28px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 21px;
+	margin-top: 14px;
+	display: block;
+}
+
+#user {
+	width: 15px;
+	height: 15px;
+	float: right;
+	background: red;
+	margin-right: 120px;
+	margin-top: 20px;
+}
+
+#wrap>.left {
+	width: calc(20.3125%);
+	float: left;
+	margin-top: 56px;
+	background: #2a2e3d;
+	margin-bottom: -3000px;
+	padding-bottom: 3000px;
+}
+
+#wrap>.left>.top {
+	height: 150px;
+	width: calc(100%);
+	background: red;
+	overflow: hidden;
+}
+#wrap>.left>.top>div{
+	width: 57px;
+	height: 57px;
+	background: blue;
+	margin-top: 18px;
+	margin-left: 45px;
+	float: left;
+}
+#wrap>.left>.top>span{
+	display: block;
+}
+#wrap>.left>.top>span:nth-child(2){
+	margin-top: 40px;
+	margin-left: 19px;
+	float: left;
+}
+#wrap>.left>.top>span:nth-child(3){
+	margin-top:99px;
+	margin-left: 63px;
+	height: 28px;
+}
+#wrap>.left>.top>span:nth-child(4){
+	float: right;
+	height: 27px;
+	margin-top: -28px;
+	margin-right: 87px;
+}
+#wrap>.left>div:nth-child(2)>nav>ul>li:nth-child(1){
+	width: 260px;
+	height: 191px;
+	background: #383d4e;
+	color: #6a7c90;
+}
+#wrap>.left>div:nth-child(2)>nav>ul>li:nth-child(1)>span{
+	display: block;
+	margin-left: 70px;
+	margin-top: 14px;
+}
+#wrap>.left>div:nth-child(2)>nav>ul>li:nth-child(1)>ul{
+	display: block;
+	margin-left: 85px;
+	margin-top: 18px;
+}
+#wrap>.left>div:nth-child(2)>nav>ul>li:nth-child(1)>ul>li>ul{
+	display: block;
+	margin-left: 15px;
+	margin-top: 18px;
+}
+#wrap>.left>div:nth-child(2)>nav>ul>li:not(:first-child){
+	margin-left: 70px;
+	margin-top: 16px;
+	color: #6a7c90;
+}
+/*#wrap>.left>div:nth-child(2)>nav>ul>li:nth-child(1)>span:before{
+
+	content:url(baobiao.jpg);
+	background-color: yellow;
+}*/
+#wrap>.right {
+	width: calc(79.6875%);
+	float: right;
+	background: #ededec;
+	margin-top: 56px;
+}
+
+#wrap>.right>.mbxie {
+	height: 30px;
+	background: #FFFFFF;
+}

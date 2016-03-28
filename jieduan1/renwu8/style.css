@@ -18,7 +18,7 @@ body{
 		outline: 1px solid #999;
 	}
 /*大于768px*/
-@media(min-width:769px) {
+@media(min-width:768px) {
 	.col-md-1{
 		width: calc(8.3333% - 20px);
 	}
